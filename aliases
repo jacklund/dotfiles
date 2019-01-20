@@ -1,0 +1,72 @@
+alias cls="clear"
+
+alias g="git"
+alias gt="git status"
+alias gb="git branch -vv"
+alias gd="git diff"
+alias gh="git hist -20"
+alias gca="git commit --all"
+alias gcw="git commit -t <(cat $(git config commit.template) <(echo) <(echo) <(gitcoauthoredby))"
+alias gitopen='vim $(git status -s | awk '"'"'{print $2}'"'"')'
+alias gr="git reset"
+alias gs="git status"
+alias gl="git log"
+
+case "$(uname)" in
+    Linux) alias ls='ls -F --color=auto';;
+    *) alias ls='ls -FG';;
+esac
+alias l="ls -lFh"
+alias la='ls -a'
+alias ll='ls -alh'
+
+alias grep='grep --color'
+
+ressh() {
+  for agent_sock in /tmp/ssh-*/agent.*; do
+    [ ! -S "$agent_sock" ] && continue
+
+    env SSH_AUTH_SOCK="$agent_sock" timeout 1 ssh-add -L &> /dev/null
+    CODE="$?"
+
+    if [ "$CODE" = 2 ]; then
+      rm -rf "$agent_sock" &> /dev/null
+    elif [ "$CODE" = 0 ]; then
+      export SSH_AUTH_SOCK="${agent_sock}"
+      echo "export SSH_AUTH_SOCK=${agent_sock}"
+    fi
+  done
+
+  echo ""
+  ssh-add -l 2>/dev/null
+}
+alias retry='ressh && /bin/zsh -c "`fc -ln -1`"'
+
+function read-markdown () {
+    local markdown_file=$1
+    if [[ -z "${markdown_file}" ]]; then
+      echo "No file specified"
+    else
+      pandoc ${markdown_file} | lynx -stdin
+    fi
+}
+alias markdown='read-markdown'
+
+alias fixtmux="pkill -SIGWINCH -f tmux"
+
+if [[ `uname` == 'Linux' ]]; then
+  alias pretty-dstat='dstat -tcldnm 10'
+else
+  alias top='top -o cpu'
+fi
+
+alias upgrade-stars="pip install --user --upgrade stars"
+alias stars-upgrade="upgrade-stars"
+
+alias upgrade-rdsctl="pip install --user --upgrade rdsctl"
+alias rdsctl-upgrade="upgrade-rdsctl"
+
+case "$(uname)" in
+  Linux) alias psg='ps -eo pid,user,start_time,cmd --sort -etime | fgrep -v "grep" | grep -E';;
+  *)     alias psg='ps -eo pid,user,start,command | fgrep -v "grep" | grep -E';;
+esac

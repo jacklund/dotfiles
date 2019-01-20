@@ -1,0 +1,43 @@
+[user]
+  name = Jack Lund
+  email = jackl@geekheads.net
+	signingkey = EED46888FC3D2C07
+[color]
+  ui = auto
+[alias]
+  ci = commit
+  co = checkout
+  st = status
+  ch = cherry -v origin
+  br = branch
+  aa = add --all --verbose .
+  addall = add -A .
+  hist = log --graph --abbrev-commit --pretty=format:'%C(red)%h%C(reset) - %s %C(green)(%cr) %C(blue)<%an>%C(magenta)%d%C(reset)'
+  oneline = log --pretty=format:\"%h %ad%x20%s%x20%x28%an%x29\" --date=short
+  current = log --pretty=format:'%ad %h %d' --abbrev-commit --date=short -1
+  cur = log --pretty=format:'%ad %h %d' --abbrev-commit --date=short -1
+
+  # show difference between the HEAD and the index
+  staged = diff --cached
+  ds = diff --staged
+
+  # show difference between working tree and the index
+  unstaged = diff
+
+  pile = stash --include-untracked
+  up = pull --rebase --autostash
+[push]
+  default = current
+[core]
+	autocrlf = input
+	excludesfile = ~/.gitignore
+[pager]
+  log = diff-highlight | less
+  show = diff-highlight | less
+  diff = diff-highlight | less
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[commit]
+	gpgsign = false
