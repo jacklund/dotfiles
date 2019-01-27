@@ -137,17 +137,7 @@ export PROMPT='%{$fg_bold[green]%}%m:%{$fg_bold[blue]%}%~%{$fg_bold[green]%}$(gi
 export EDITOR=vim
 export LESS='XFR'
 
-#export PATH="/usr/local/share/npm/bin:$PATH"
-#export PATH="/usr/local/bin:$PATH"
-#export PATH="/usr/local/sbin:$PATH"
-#export PATH="/usr/local/ruby/bin:$PATH"
-#export PATH="$PATH:/usr/local/pear/bin"
-#export PATH="$PATH:$HOME/bt/system-scripts/bin"
-#export PATH="$PATH:/opt/elixir/current/bin"
-#export PATH="$PATH:/usr/local/Cellar/python/2.7.2/bin"
-#export PATH="$PATH:/Applications/wkhtmltopdf.app/Contents/MacOS"
-#export PATH="$PATH:$HOME/bazel/output"
-#export PATH="$PATH:$HOME/.local/bin"  # for pip install --user
+export PATH=$HOME/bin:$PATH
 
 autoload edit-command-line
 zle -N edit-command-line
