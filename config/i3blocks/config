@@ -65,6 +65,12 @@ label=HOME
 #instance=/mnt/data
 interval=30
 
+# External IP address indicator
+[external-ip]
+interval=60
+command=~/bin/ip_status
+separator=false
+
 # Network interface monitoring
 #
 # If the instance is not specified, use the interface used for default route.
