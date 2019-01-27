@@ -199,6 +199,14 @@ function tag-list {
   git tag --list | sort --version-sort
 }
 
+function external-ip {
+  curl http://ipecho.net/plain; echo
+}
+
+function external-dns {
+  dig +noall +answer geekheads.net | awk '{print $5}'
+}
+
 mkdir -p ~/.zshrc.d
 for file in $(find ~/.zshrc.d -type f -or -type l) ; do
   source "$file"
