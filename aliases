@@ -60,12 +60,6 @@ else
   alias top='top -o cpu'
 fi
 
-alias upgrade-stars="pip install --user --upgrade stars"
-alias stars-upgrade="upgrade-stars"
-
-alias upgrade-rdsctl="pip install --user --upgrade rdsctl"
-alias rdsctl-upgrade="upgrade-rdsctl"
-
 case "$(uname)" in
   Linux) alias psg='ps -eo pid,user,start_time,cmd --sort -etime | fgrep -v "grep" | grep -E';;
   *)     alias psg='ps -eo pid,user,start,command | fgrep -v "grep" | grep -E';;
