@@ -1,0 +1,9 @@
+#! /bin/bash
+
+mouseids=$(xinput --list |
+awk '/Virtual core pointer/{flag=1;next}/Virtual core keyboard/{flag=0}flag' | sed 's/^.*id=\([0-9]*\).*$/\1/')
+
+for mouseid in $mouseids
+do
+  xinput --set-int-prop $mouseid 'libinput Natural Scrolling Enabled' 8 1
+done
