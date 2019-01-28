@@ -201,6 +201,17 @@ bindsym XF86AudioRaiseVolume exec $volumepath/volume -np -i $volumestep -t $stat
 bindsym XF86AudioLowerVolume exec $volumepath/volume -np -d $volumestep -t $statuscmd -u $statussig
 bindsym XF86AudioMute        exec $volumepath/volume -mn -t $statuscmd -u $statussig
 
+# Sreen brightness controls
+bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
+bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
+
+# Media player controls
+bindsym XF86AudioPlay exec playerctl play-pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+
 # Screen locking
 bindsym Control+$mod+l exec "i3lock-fancy -- scrot"
 exec xautolock -time 15 -locker /usr/bin/i3lock-fancy -detectsleep
+
+#exec --no-startup-id feh --bg-scale /path/to/picture
