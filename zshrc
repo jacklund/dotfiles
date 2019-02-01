@@ -134,7 +134,7 @@ export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 export PROMPT='%{$fg_bold[green]%}%m:%{$fg_bold[blue]%}%~%{$fg_bold[green]%}$(git_prompt_info)%{$reset_color%}%#%{$fg_bold[gray]%}$(job_info)%{$reset_color%} '
 
-export EDITOR=vim
+export EDITOR=nvim
 export LESS='XFR'
 
 export PATH=$HOME/bin:$PATH
