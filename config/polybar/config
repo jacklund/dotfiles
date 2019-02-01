@@ -101,8 +101,8 @@
   font-2 = FontAwesome:pixelsize=12
 
   modules-center = i3
-  modules-left = cpu memory temperature redshift
-  modules-right =  filesystem wireless-network
+  modules-left = cpu memory temperature redshift network
+  modules-right =  filesystem
 
 
 [module/i3]
@@ -203,6 +203,13 @@
   label =%temperature-f%
   label-warn =xxx%temperature-f%
 
+
+[module/network]
+	type = internal/network
+	interface = wlx001f017b0914
+	interval = 3.0
+	format-connected = <label-connected>
+	label-connected =  %upspeed%     %downspeed%
 
 [module/wlan]
 	type = internal/network
