@@ -64,7 +64,7 @@
   font-4 = MaterialIcons:size=16;5
   tray-position = right
   tray-padding = 4
-  modules-left = jgmenu  wlan  external-ip bluetooth
+  modules-left = wlan  external-ip bluetooth
   modules-center = weather
   modules-right = light volume date
 
@@ -283,7 +283,7 @@
   type = custom/text
   content-padding = 2
   content = menu
-  click-left = "jgmenu --at-pointer"
+  click-left = "jgmenu_run"
 
 [module/filesystem]
   type = internal/fs
