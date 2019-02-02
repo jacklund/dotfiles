@@ -1,0 +1,6 @@
+#!/bin/bash
+
+status=$(spotifycli --statusshort)
+play=$(spotifycli --playbackstatus)
+
+echo $play $status
