@@ -9,6 +9,6 @@ api_key = "8fdd084cefbd9dae1b655b7892548350"
 weather = eval(str(urllib.request.urlopen("http://api.openweathermap.org/data/2.5/weather?q={}&APPID={}".format(city, api_key)).read())[2:-1])
 
 info = weather["weather"][0]["description"].capitalize()
-temp = int(float(weather["main"]["temp"]) - 272.15)
+temp = int((float(weather["main"]["temp"]) - 273.15) * 1.8 + 32)
 
-print("%s, %i °C" % (info, temp))
+print("%s, %i °F" % (info, temp))
