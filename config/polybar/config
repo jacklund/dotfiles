@@ -1,12 +1,12 @@
 ; vim:ft=dosini
 
 [colors]
-	select = #161A1B
+  select = #161A1B
   background = #f41C1C1C
-	background-alt = 		${self.select}
+  background-alt =     ${self.select}
   foreground = #ccD0D0D0
-	alert =                 #F1FA8C
-	transparent = 			#00000000
+  alert =                 #F1FA8C
+  transparent =       #00000000
   bar-used-0 = #aaff77
   bar-used-1 = #aaff77
   bar-used-2 = #fba922
@@ -15,82 +15,84 @@
 
 
 [global/wm]
-	margin-top = 0
-	margin-bottom = 0
+  margin-top = 0
+  margin-bottom = 0
 
 
 [settings]
-	throttle-output = 5
-	throttle-output-for = 10
-	throttle-input-for = 30
-	screenchange-reload = true
-	bargapp= 10
-	barwidth = 100%
-	barheight = 40
+  throttle-output = 5
+  throttle-output-for = 10
+  throttle-input-for = 30
+  screenchange-reload = true
+  bargapp= 10
+  barwidth = 100%
+  barheight = 40
 
 
 [bar/top]
-	monitor = DP-1
-	monitor-strict = true
-	fixed-center = true
-	bottom = false
-	width = ${settings.barwidth}
-	height = ${settings.barheight}
-	offset-x = 0
-	offset-y = 0
-	background = ${colors.background}
-	foreground = ${colors.foreground}
-	overline-size = 0
-	overline-color = #f00
-	underline-size = 2
-	underline-color = #00f
-	border-top-size = ${settings.bargapp}
-	border-left-size = ${settings.bargapp}
-	border-right-size = ${settings.bargapp}
-	border-bottom-size = 0
-	border-color = ${colors.transparent}
-	radius-top = 10
-	radius-bottom = 10
-	spacing = 2
-	padding-left = 2
-	padding-right = 2
-	module-margin-left = 2
-	module-margin-right = 2
-	font-0 = Monoid:size=10;4
+  monitor = DP-1
+  monitor-strict = true
+  fixed-center = true
+  bottom = false
+  top = true
+  width = ${settings.barwidth}
+  height = ${settings.barheight}
+  offset-x = 0
+  offset-y = 0
+  background = ${colors.background}
+  foreground = ${colors.foreground}
+  overline-size = 0
+  overline-color = #f00
+  underline-size = 2
+  underline-color = #00f
+  border-top-size = ${settings.bargapp}
+  border-left-size = ${settings.bargapp}
+  border-right-size = ${settings.bargapp}
+  border-bottom-size = 0
+  border-color = ${colors.transparent}
+  radius-top = 10
+  radius-bottom = 10
+  spacing = 2
+  padding-left = 2
+  padding-right = 2
+  module-margin-left = 2
+  module-margin-right = 2
+  font-0 = Monoid:size=10;4
   font-1 = unifont:size=12;1
   font-2 = FontAwesome:size=12;3
   font-3 = NotoSans-Regular:size=12;-1
   font-4 = MaterialIcons:size=16;5
-	tray-position = right
-	tray-padding = 4
-	modules-left = jgmenu  wlan  external-ip bluetooth
+  tray-position = right
+  tray-padding = 4
+  modules-left = jgmenu  wlan  external-ip bluetooth
   modules-center = weather
-	modules-right = light volume date
+  modules-right = light volume date
 
 
 [bar/bottom]
-	width = ${settings.barwidth}
-	height = ${settings.barheight}
+  width = ${settings.barwidth}
+  height = ${settings.barheight}
   clickareas = 35
   override-redirect = false
   bottom = true
   top = false
   monitor = DP-1
+  monitor-strict = true
   scroll-up = i3wm-wsnext
   scroll-down = i3wm-wsprev
   background = ${colors.background}
   foreground = ${colors.foreground}
   radius-top = 10
   radius-bottom = 10
-  border-top-size = 10
-  border-left-size = 10
-  border-right-size = 10
-  border-bottom-size = 0
+  border-top-size = ${settings.bargapp}
+  border-left-size = ${settings.bargapp}
+  border-right-size = ${settings.bargapp}
+  border-bottom-size = 10
 
   #locale = es_ES.UTF-8
 
   tray-position = right
-  spacing = 0
+  spacing = 2
   padding-left = 2
   padding-right = 2
   module-margin-left = 0
@@ -106,24 +108,24 @@
 
 
 [module/i3]
-	type = internal/i3
-	format = <label-state> <label-mode>
-	pin-workspaces = true
-	label-focused = %name%
-	label-focused-foreground= ${colors.background}
-	label-focused-background = ${colors.foreground}
-	label-focused-underline = ${colors.foreground}
-	label-focused-padding = 3
-	label-unfocused = %name%
-	label-unfocused-padding = 2
-	label-unfocused-background = ${colors.background}
-	label-urgent = %name%
-	label-urgent-foreground= ${colors.alert}
-	label-urgent-background = ${colors.background-alt}
-	label-urgent-padding = 2
-	label-empty = %name%
-	label-empty-background = ${colors.background-alt}
-	label-empty-padding = ${self.label-focused-padding}
+  type = internal/i3
+  format = <label-state> <label-mode>
+  pin-workspaces = true
+  label-focused = %name%
+  label-focused-foreground= ${colors.background}
+  label-focused-background = ${colors.foreground}
+  label-focused-underline = ${colors.foreground}
+  label-focused-padding = 3
+  label-unfocused = %name%
+  label-unfocused-padding = 2
+  label-unfocused-background = ${colors.background}
+  label-urgent = %name%
+  label-urgent-foreground= ${colors.alert}
+  label-urgent-background = ${colors.background-alt}
+  label-urgent-padding = 2
+  label-empty = %name%
+  label-empty-background = ${colors.background-alt}
+  label-empty-padding = ${self.label-focused-padding}
 
 
 [module/external-ip]
@@ -134,13 +136,13 @@
 
 
 [module/search]
-	type = custom/script
-	exec = echo "   search:    "
-	interval = 60
-	label = %output%
-	format = <label>
-	format-foreground = ${colors.background}
-	format-background = ${colors.foreground}
+  type = custom/script
+  exec = echo "   search:    "
+  interval = 60
+  label = %output%
+  format = <label>
+  format-foreground = ${colors.background}
+  format-background = ${colors.foreground}
 
 
 [module/cpu]
@@ -206,26 +208,26 @@
 
 
 [module/network]
-	type = internal/network
-	interface = wlx001f017b0914
-	interval = 3.0
-	format-connected = <label-connected>
-	label-connected =  %upspeed%     %downspeed%
+  type = internal/network
+  interface = wlx001f017b0914
+  interval = 3.0
+  format-connected = <label-connected>
+  label-connected =  %upspeed%     %downspeed%
 
 [module/wlan]
-	type = internal/network
-	interface = wlx001f017b0914
-	interval = 3.0
-	format-connected = <label-connected>
-	label-connected =  %essid%   %signal% %local_ip% 
-	label-disconnected = "%{A1:connman-gtk &:}%{A}"
-	label-disconnected-foreground = #5b
-	ramp-signal-0 = 
-	ramp-signal-1 = 
-	ramp-signal-2 = 
-	ramp-signal-3 = 
-	ramp-signal-4 = 
-	ramp-signal-foreground = ${colors.foreground}
+  type = internal/network
+  interface = wlx001f017b0914
+  interval = 3.0
+  format-connected = <label-connected>
+  label-connected =  %essid%   %signal% %local_ip% 
+  label-disconnected = "%{A1:connman-gtk &:}%{A}"
+  label-disconnected-foreground = #5b
+  ramp-signal-0 = 
+  ramp-signal-1 = 
+  ramp-signal-2 = 
+  ramp-signal-3 = 
+  ramp-signal-4 = 
+  ramp-signal-foreground = ${colors.foreground}
   format-connected-foreground = #458588
 
 
@@ -247,35 +249,35 @@
   exec = ~/bin/list_bt_connections
 
 [module/date]
-	type = internal/date
-	interval = 1.0
+  type = internal/date
+  interval = 1.0
   date = %%{F#d3869b}%a %b %d%%{F-}  %%{F#fabd2f}%r%%{F-}
-	label = %date% %time%
-	format = <label>
-	format-foreground = ${colors.foreground}
+  label = %date% %time%
+  format = <label>
+  format-foreground = ${colors.foreground}
 
 
 [module/volume]
   type = internal/pulseaudio
-	format-volume = <ramp-volume><label-volume>
-	format-muted = <label-muted>
-	format-volume-foreground = ${colors.foreground}
-	label-volume = %percentage%
-	label-muted =   M
-	label-muted-foreground = #aaa
-	ramp-volume-0 = 
-	ramp-volume-1 = 
-	ramp-volume-2 = 
-	ramp-headphones-0 = 
+  format-volume = <ramp-volume><label-volume>
+  format-muted = <label-muted>
+  format-volume-foreground = ${colors.foreground}
+  label-volume = %percentage%
+  label-muted =   M
+  label-muted-foreground = #aaa
+  ramp-volume-0 = 
+  ramp-volume-1 = 
+  ramp-volume-2 = 
+  ramp-headphones-0 = 
 
 
 [module/light]
-	type = internal/backlight
-	card = acpi_video0
-	enable-scroll = true
-	format = <label>
-	label =  %percentage%%
-	label-foreground = ${colors.foreground}
+  type = internal/backlight
+  card = acpi_video0
+  enable-scroll = true
+  format = <label>
+  label =  %percentage%%
+  label-foreground = ${colors.foreground}
 
 [module/jgmenu]
   type = custom/text
