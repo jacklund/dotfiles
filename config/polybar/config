@@ -244,6 +244,7 @@
   type = custom/script
   interval = 1
   format = <label>
+  format-foreground = #fabd2f
   exec = ~/bin/show-spotify
 
 [module/bluetooth]
