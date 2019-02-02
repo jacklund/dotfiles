@@ -63,7 +63,7 @@
   font-4 = MaterialIcons:size=16;5
 	tray-position = right
 	tray-padding = 4
-	modules-left = jgmenu    wlan  bluetooth
+	modules-left = jgmenu  wlan  external-ip bluetooth
   modules-center = weather
 	modules-right = light volume date
 
@@ -130,6 +130,7 @@
   type = custom/script
   exec = ~/bin/ip_status
   interval = 60
+  format-foreground = #458588
 
 
 [module/search]
@@ -242,7 +243,7 @@
   interval = 10
   format = <label>
   format-prefix = " "
-  format-prefix-foreground = ${colors.foreground}
+  format-foreground = #458588
   exec = ~/bin/list_bt_connections
 
 [module/date]

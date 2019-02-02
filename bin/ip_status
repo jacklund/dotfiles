@@ -5,10 +5,6 @@ external_dns=$(dig +noall +answer geekheads.net | awk '{print $5}')
 
 if [[ ${external_ip} == ${external_dns} ]]; then
   echo ${external_ip}
-  echo
-  echo \#00FF00
 else
-  echo "${external_ip}/${external_dns}"
-  echo
-  echo \#FF0000
+  echo "${external_ip} != ${external_dns}!!!!"
 fi
