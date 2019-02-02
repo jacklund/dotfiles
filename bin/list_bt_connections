@@ -1,0 +1,5 @@
+#! /bin/bash
+
+for i in $(hcitool con | grep -v Connections: | awk '{print $3}'); do
+  echo $(hcitool name $i)
+done | paste -s

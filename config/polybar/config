@@ -63,7 +63,7 @@
   font-4 = MaterialIcons:size=16;5
 	tray-position = right
 	tray-padding = 4
-	modules-left = jgmenu    wlan
+	modules-left = jgmenu    wlan  bluetooth
   modules-center = weather
 	modules-right = light volume date
 
@@ -236,6 +236,14 @@
   format-prefix-foreground = ${colors.foreground}
   exec = ~/.config/polybar/weather
 
+
+[module/bluetooth]
+  type = custom/script
+  interval = 10
+  format = <label>
+  format-prefix = " "
+  format-prefix-foreground = ${colors.foreground}
+  exec = ~/bin/list_bt_connections
 
 [module/date]
 	type = internal/date
