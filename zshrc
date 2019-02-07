@@ -139,6 +139,9 @@ export LESS='XFR'
 
 export PATH=$HOME/bin:$PATH
 
+# Turn off the dumb-ass ls quotes
+export QUOTING_STYLE=literal
+
 autoload edit-command-line
 zle -N edit-command-line
 bindkey '^X^e' edit-command-line
