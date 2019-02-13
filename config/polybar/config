@@ -64,7 +64,7 @@
   font-4 = MaterialIcons:size=16;5
   tray-position = right
   tray-padding = 4
-  modules-left = wlan  external-ip bluetooth
+  modules-left = wlan external-ip bluetooth
   modules-center = weather
   modules-right = spotify light volume date
 
@@ -219,7 +219,7 @@
   interface = wlx001f017b0914
   interval = 3.0
   format-connected = <label-connected>
-  label-connected =  %essid%   %signal% %local_ip% 
+  label-connected =  %essid%   %signal%    %local_ip% 
   label-disconnected = "%{A1:connman-gtk &:}%{A}"
   label-disconnected-foreground = #5b
   ramp-signal-0 = 
