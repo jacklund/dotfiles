@@ -20,6 +20,9 @@ call plug#begin()
 " nord-vim colorscheme
 Plug 'arcticicestudio/nord-vim'
 
+" Bufexplorer
+Plug 'jlanzarotta/bufexplorer'
+
 " neomake
 Plug 'neomake/neomake'
 
@@ -48,6 +51,11 @@ Plug 'tomtom/tcomment_vim'
 " Syntastic
 Plug 'vim-syntastic/syntastic'
 
+" Rust-racer
+Plug 'racer-rust/vim-racer'
+
+" Vim-fugitive
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
