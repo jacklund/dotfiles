@@ -2,6 +2,13 @@
   name = Jack Lund
   email = jackl@geekheads.net
 	signingkey = EED46888FC3D2C07
+
+[includeIf "gitdir:~/bt/"]
+    path = ~/bt/.gitconfig
+
+[includeIf "gitdir:~/cosmos/"]
+    path = ~/cosmos/.gitconfig
+
 [color]
   ui = auto
 [alias]
