@@ -9,13 +9,16 @@ set ttyfast                 " Faster redrawing
 set lazyredraw              " Only redraw when necessary
 set cursorline              " Find the current line quickly.
 
-
-
 """""""""""""""""""""""""""""""""""""""""""""""
 " => Plugins List
 """""""""""""""""""""""""""""""""""""""""""""""
 
 call plug#begin()
+
+function! DoRemote(arg)
+  UpdateRemotePlugins
+endfunction
+
 
 " nord-vim colorscheme
 Plug 'arcticicestudio/nord-vim'
@@ -23,24 +26,29 @@ Plug 'arcticicestudio/nord-vim'
 " Bufexplorer
 Plug 'jlanzarotta/bufexplorer'
 
+Plug 'bling/vim-airline'
+
 " neomake
-Plug 'neomake/neomake'
+" Plug 'neomake/neomake'
 
 " rust support
 Plug 'rust-lang/rust.vim'
+
+" Make trailing whitespace be red
+Plug 'bronson/vim-trailing-whitespace'
 
 " NERDTree
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 
 " Async FuzzyFind
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
 " .editorconfig
 Plug 'editorconfig/editorconfig-vim'
 
 " semantic-based completion
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+Plug 'Shougo/deoplete.nvim', { 'do': function('DoRemote') }
 
 " linting engine
 Plug 'w0rp/ale'
@@ -51,27 +59,79 @@ Plug 'tomtom/tcomment_vim'
 " Syntastic
 Plug 'vim-syntastic/syntastic'
 
-" Rust-racer
-Plug 'racer-rust/vim-racer'
+" LanguageClient
+Plug 'autozimu/LanguageClient-neovim', {
+    \ 'branch': 'next',
+    \ 'do': 'bash install.sh',
+    \ }
+
+
+" LanguageClient-Neovim setup
+let g:LanguageClient_autoStart = 1
+let g:LanguageClient_loadSettings = 1
+let g:LanguageClient_diagnosticsEnable = 0
+let g:LanguageClient_serverCommands = {
+    \ 'python': ['pyls'],
+    \ 'rust': ['rls'],
+    \ 'php': ['php', '~/.tooling/php-language-server/bin/php-language-server.php'],
+    \ 'sh': ['bash-language-sever', 'start'],
+    \ 'c': ['ccls', '--log-file=/tmp/cc.log'],
+    \ 'cpp': ['ccls', '--log-file=/tmp/cc.log'],
+    \ 'cuda': ['ccls', '--log-file=/tmp/cc.log'],
+    \ 'objc': ['ccls', '--log-file=/tmp/cc.log'],
+    \ 'javascript': ['~/source/javascript-typescript-langserver/lib/language-server-stdio'],
+    \ 'go': ['go-langserver'],
+    \ }
+
+noremap <leader>h  :call LanguageClient#textDocument_hover()<CR>
+noremap <leader>gd :call LanguageClient#textDocument_definition()<CR>
+noremap <leader>gi :call LanguageClient#textDocument_implementation()<CR>
+noremap <leader>rn :call LanguageClient#textDocument_rename()<CR>
+noremap <leader>r  :call LanguageClient#textDocument_references()<CR>
+
+" Ale config
+let g:ale_rust_rls_toolchain = "stable"
+let g:ale_linters = {
+            \ 'python': ['pylint', 'pyls'],
+            \ 'rust': ['cargo'],
+            \ 'php': ['langserver', 'php_cs_fixer'],
+            \ 'bash': ['shellcheck'],
+            \ }
+
+let g:ale_fix_on_save = 1
+let g:ale_fixers = {
+            \ 'rust': ['rustfmt'],
+            \ 'php': ['php_cs_fixer'],
+            \ 'bash': ['shfmt'],
+            \ }
 
 " Vim-fugitive
 Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
-
-
 """""""""""""""""""""""""""""""""""""""""""""""
 " => Plugin Related Configs
 """""""""""""""""""""""""""""""""""""""""""""""
+" airline
+set laststatus=2
+let g:airline_left_sep=""
+let g:airline_left_alt_sep="|"
+let g:airline_right_sep=""
+let g:airline_right_alt_sep="|"
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#fnamemod = ':t'
+let g:airline#extensions#tabline#show_tab_nr = 1
+let g:airline#extensions#tabline#tab_nr_type = 1 " show tab number not number of split panes
+let g:airline#extensions#tabline#show_close_button = 0
+let g:airline#extensions#tabline#show_buffers = 0
+let g:airline#extensions#hunks#enabled = 0
+let g:airline_section_z = ""
 
-" Neomake async hooks
-call neomake#configure#automake('w')
+" Rust
+let g:rustfmt_autosave = 1
 
-" Open NERDTree automatically when vim starts up
-" autocmd vimenter * NERDTree
 " NERDTree
-let NERDTreeShowHidden=1
 map <silent> <LocalLeader>nt :NERDTreeToggle<CR>
 map <silent> <LocalLeader>nr :NERDTree<CR>
 map <silent> <LocalLeader>nf :NERDTreeFind<CR>
@@ -79,50 +139,9 @@ map <silent> <LocalLeader>nf :NERDTreeFind<CR>
 " close NERDTree after a file is opened
 let g:NERDTreeQuitOnOpen=1
 
-" disable auto_triggering ycm suggestions pane and instead
-" use semantic completion only on Ctrl+n
-let ycm_trigger_key = '<C-n>'
-let g:ycm_auto_trigger = 0
-let g:ycm_key_invoke_completion = ycm_trigger_key
-
-" this is some arcane magic to allow cycling through the YCM options
-" with the same key that opened it.
-" See http://vim.wikia.com/wiki/Improve_completion_popup_menu for more info.
-let g:ycm_key_list_select_completion = ['<TAB>', '<C-j>']
-inoremap <expr> ycm_trigger_key pumvisible() ? "<C-j>" : ycm_trigger_key;
-
-" show autocomplete suggestions only when typing more than 2 characters
-let g:ycm_min_num_of_chars_for_completion = 2
-
-" show at most 20 completion candidates at a time (more than this would be
-" ridiculous, you'd press TAB so many times it would be better to simply type
-" the entire thing lol)
-" this applies only to the semantic-based engine
-let g:ycm_max_num_candidates = 20
-
-" this is the same as above, but only for the identifier-based engine
-let g:ycm_max_num_identifier_candidates = 10
-
-" blacklist of filetypes in which autocomplete should be disabled
-let g:ycm_filetype_blacklist = {
-      \ 'tagbar': 1,
-      \ 'qf': 1,
-      \ 'notes': 1,
-      \ 'markdown': 1,
-      \ 'unite': 1,
-      \ 'text': 1,
-      \ 'vimwiki': 1,
-      \ 'pandoc': 1,
-      \ 'infolog': 1,
-      \ 'mail': 1
-      \}
-
-" blacklist of filepaths in which autocomplete should be disabled
-let g:ycm_filepath_blacklist = {
-      \ 'html': 1,
-      \ 'jsx': 1,
-      \ 'xml': 1,
-      \}
+" deoplete
+let g:deoplete#enable_at_startup=1
+inoremap <silent><expr> <Tab> pumvisible() ? "\<C-n>" : "\<C-i>"
 
 " fix files on save
 let g:ale_fix_on_save = 1
@@ -154,6 +173,7 @@ let g:syntastic_always_populate_loc_list = 1
 "let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
 
 """""""""""""""""""""""""""""""""""""""""""""""
 " => Visual Related Configs
@@ -188,23 +208,9 @@ set guioptions-=R
 set guioptions-=l
 set guioptions-=L
 
-
-
 """""""""""""""""""""""""""""""""""""""""""""""
 " => Keymappings
 """""""""""""""""""""""""""""""""""""""""""""""
-
-" dont use arrowkeys
-noremap <Up> <NOP>
-noremap <Down> <NOP>
-noremap <Left> <NOP>
-noremap <Right> <NOP>
-
-" really, just dont
-inoremap <Up>    <NOP>
-inoremap <Down>  <NOP>
-inoremap <Left>  <NOP>
-inoremap <Right> <NOP>
 
 " copy and paste to/from vIM and the clipboard
 nnoremap <C-y> +y
@@ -226,13 +232,6 @@ map <silent> <LocalLeader>ff :FZF<CR>
 " TComment
 map <silent> <LocalLeader>cc :TComment<CR>
 map <silent> <LocalLeader>uc :TComment<CR>
-
-" YouCompleteMeMappings
-nnoremap ,dl    :YcmCompleter GoToDeclaration<CR>
-nnoremap ,df    :YcmCompleter GoToDefinition<CR>
-nnoremap ,#     :YcmCompleter GoToReferences<CR>
-
-
 
 """""""""""""""""""""""""""""""""""""""""""""""
 " => Indentation
@@ -257,13 +256,3 @@ set ai
 " Smart indent
 " Automatically inserts one extra level of indentation in some cases, and works for C-like files
 set si
-
-
-
-"""""""""""""""""""""""""""""""""""""""""""""""
-" => Utils (a.k.a. mess I can't categorize)
-"""""""""""""""""""""""""""""""""""""""""""""""
-
-" :W sudo saves the file
-" (useful for handling the permission-denied error)
-command W w !sudo tee % > /dev/null
