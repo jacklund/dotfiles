@@ -65,6 +65,9 @@ Plug 'autozimu/LanguageClient-neovim', {
     \ 'do': 'bash install.sh',
     \ }
 
+" OrgMode
+Plug 'jceb/vim-orgmode'
+
 
 " LanguageClient-Neovim setup
 let g:LanguageClient_autoStart = 1
