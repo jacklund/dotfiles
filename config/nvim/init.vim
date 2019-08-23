@@ -68,6 +68,9 @@ Plug 'autozimu/LanguageClient-neovim', {
 " OrgMode
 Plug 'jceb/vim-orgmode'
 
+" Ansible
+Plug 'chase/vim-ansible-yaml'
+
 
 " LanguageClient-Neovim setup
 let g:LanguageClient_autoStart = 1
