@@ -189,7 +189,7 @@ let g:syntastic_check_on_wq = 0
 set t_Co=256
 
 " set colorscheme
-colorscheme nord
+silent! colorscheme nord
 
 " long lines as just one line (have to scroll horizontally)
 set wrap
