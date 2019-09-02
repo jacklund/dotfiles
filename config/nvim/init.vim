@@ -71,6 +71,9 @@ Plug 'jceb/vim-orgmode'
 " Ansible
 Plug 'chase/vim-ansible-yaml'
 
+" Terraform
+Plug 'hashivim/vim-terraform'
+
 
 " LanguageClient-Neovim setup
 let g:LanguageClient_autoStart = 1
@@ -179,6 +182,9 @@ let g:syntastic_always_populate_loc_list = 1
 "let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+" vim-terraform
+let g:terraform_fmt_on_save = 1
 
 
 """""""""""""""""""""""""""""""""""""""""""""""
