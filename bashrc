@@ -117,3 +117,7 @@ export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 gpgconf --launch gpg-agent
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+# For systemd user mode
+export XDG_RUNTIME_DIR="/run/user/$UID"
+export DBUS_SESSION_BUS_ADDRESS="unix:path=${XDG_RUNTIME_DIR}/bus"
