@@ -1,0 +1,805 @@
+2018-12-20 21:02:44,413 INFO - root - Initialising application
+2018-12-20 21:02:44,418 INFO - root - Initialise global hotkeys
+2018-12-20 21:02:44,418 INFO - config-manager - No configuration found - creating new one
+2018-12-20 21:02:44,421 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2018-12-20 21:02:44,421 INFO - config-manager - Persisting configuration
+2018-12-20 21:02:44,421 INFO - config-manager - Finished persisting configuration - no errors
+2018-12-20 21:02:44,422 INFO - service - Starting service
+2018-12-20 21:02:44,497 INFO - interface - XRecord interface thread starting
+2018-12-20 21:02:44,498 INFO - service - Service now marked as running
+2018-12-20 21:02:44,548 INFO - root - Displaying configuration window
+2018-12-20 21:02:44,828 INFO - root - Entering main()
+2018-12-20 21:02:48,973 INFO - root - Shutting down
+2018-12-20 21:02:48,973 INFO - service - Service shutting down
+2018-12-20 21:02:49,974 INFO - config-manager - Persisting configuration
+2018-12-20 21:02:49,974 INFO - config-manager - Backing up existing config file
+2018-12-20 21:02:49,976 INFO - config-manager - Finished persisting configuration - no errors
+2018-12-20 21:02:50,977 INFO - inotify - Shutting down file monitor
+2018-12-20 21:02:53,482 INFO - root - Initialising application
+2018-12-20 21:02:53,488 INFO - root - Initialise global hotkeys
+2018-12-20 21:02:53,489 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2018-12-20 21:02:53,491 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2018-12-20 21:02:53,491 INFO - config-manager - Successfully loaded configuration
+2018-12-20 21:02:53,492 INFO - service - Starting service
+2018-12-20 21:02:53,545 INFO - interface - XRecord interface thread starting
+2018-12-20 21:02:53,545 INFO - service - Service now marked as running
+2018-12-20 21:02:53,595 INFO - root - Displaying configuration window
+2018-12-20 21:03:03,097 INFO - root - Displaying configuration window
+2018-12-20 21:04:11,038 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2018-12-20 21:11:27,224 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2018-12-20 21:11:41,143 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2018-12-20 21:12:15,714 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2018-12-20 21:12:18,504 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2018-12-20 21:12:31,486 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-01-10 23:34:26,876 INFO - root - Initialising application
+2019-01-10 23:34:26,889 INFO - root - Initialise global hotkeys
+2019-01-10 23:34:26,889 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-01-10 23:34:26,907 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-01-10 23:34:26,907 INFO - config-manager - Successfully loaded configuration
+2019-01-10 23:34:26,907 INFO - service - Starting service
+2019-01-10 23:34:26,967 INFO - interface - XRecord interface thread starting
+2019-01-10 23:34:26,968 INFO - service - Service now marked as running
+2019-01-10 23:34:27,019 INFO - root - Displaying configuration window
+2019-01-10 23:34:27,284 INFO - root - Entering main()
+2019-01-10 23:34:38,715 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-01-10 23:34:38,715 INFO - config-manager - Persisting configuration
+2019-01-10 23:34:38,716 INFO - config-manager - Backing up existing config file
+2019-01-10 23:34:38,716 INFO - config-manager - Finished persisting configuration - no errors
+2019-01-15 19:12:03,671 INFO - root - Displaying configuration window
+2019-01-15 19:16:42,410 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-01-15 19:16:42,413 INFO - root - Shutting down
+2019-01-15 19:16:42,414 INFO - service - Service shutting down
+2019-01-15 19:16:43,408 INFO - config-manager - Persisting configuration
+2019-01-15 19:16:43,409 INFO - config-manager - Backing up existing config file
+2019-01-15 19:16:43,422 INFO - config-manager - Finished persisting configuration - no errors
+2019-01-15 19:16:44,423 INFO - inotify - Shutting down file monitor
+2019-01-20 11:08:36,676 INFO - root - Initialising application
+2019-01-20 11:08:36,691 INFO - root - Initialise global hotkeys
+2019-01-20 11:08:36,691 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-01-20 11:08:36,722 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-01-20 11:08:36,723 INFO - config-manager - Successfully loaded configuration
+2019-01-20 11:08:36,723 INFO - service - Starting service
+2019-01-20 11:08:36,809 INFO - interface - XRecord interface thread starting
+2019-01-20 11:08:36,810 INFO - service - Service now marked as running
+2019-01-20 11:08:36,882 INFO - root - Displaying configuration window
+2019-01-20 11:08:37,173 INFO - root - Entering main()
+2019-01-20 11:09:09,255 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-01-20 11:09:09,255 INFO - config-manager - Persisting configuration
+2019-01-20 11:09:09,256 INFO - config-manager - Backing up existing config file
+2019-01-20 11:09:09,257 INFO - config-manager - Finished persisting configuration - no errors
+2019-01-21 23:41:21,184 INFO - root - Initialising application
+2019-01-21 23:41:21,236 INFO - root - Initialise global hotkeys
+2019-01-21 23:41:21,237 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-01-21 23:41:21,293 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-01-21 23:41:21,294 INFO - config-manager - Successfully loaded configuration
+2019-01-21 23:41:21,294 INFO - service - Starting service
+2019-01-21 23:41:21,379 INFO - interface - XRecord interface thread starting
+2019-01-21 23:41:21,380 INFO - service - Service now marked as running
+2019-01-21 23:41:21,471 INFO - root - Displaying configuration window
+2019-01-21 23:41:21,741 INFO - root - Entering main()
+2019-01-21 23:46:46,760 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-01-21 23:46:46,760 INFO - config-manager - Persisting configuration
+2019-01-21 23:46:46,760 INFO - config-manager - Backing up existing config file
+2019-01-21 23:46:46,761 INFO - config-manager - Finished persisting configuration - no errors
+2019-01-27 17:34:43,958 INFO - root - Initialising application
+2019-01-27 17:34:43,974 INFO - root - Initialise global hotkeys
+2019-01-27 17:34:43,974 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-01-27 17:34:44,007 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-01-27 17:34:44,008 INFO - config-manager - Successfully loaded configuration
+2019-01-27 17:34:44,008 INFO - service - Starting service
+2019-01-27 17:34:44,232 INFO - interface - XRecord interface thread starting
+2019-01-27 17:34:44,233 INFO - service - Service now marked as running
+2019-01-27 17:34:44,414 INFO - root - Displaying configuration window
+2019-01-28 09:33:48,917 INFO - root - Displaying configuration window
+2019-01-28 09:33:54,613 INFO - root - Shutting down
+2019-01-28 09:33:54,613 INFO - service - Service shutting down
+2019-01-28 09:33:55,615 INFO - config-manager - Persisting configuration
+2019-01-28 09:33:55,615 INFO - config-manager - Backing up existing config file
+2019-01-28 09:33:55,617 INFO - config-manager - Finished persisting configuration - no errors
+2019-01-28 09:33:56,618 INFO - inotify - Shutting down file monitor
+2019-01-28 09:34:08,724 INFO - root - Initialising application
+2019-01-28 09:34:08,740 INFO - root - Initialise global hotkeys
+2019-01-28 09:34:08,740 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-01-28 09:34:08,742 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-01-28 09:34:08,742 INFO - config-manager - Successfully loaded configuration
+2019-01-28 09:34:08,743 INFO - service - Starting service
+2019-01-28 09:34:08,797 INFO - interface - XRecord interface thread starting
+2019-01-28 09:34:08,797 INFO - service - Service now marked as running
+2019-01-28 09:34:27,477 INFO - root - Displaying configuration window
+2019-01-28 09:36:05,517 INFO - root - Shutting down
+2019-01-28 09:36:05,518 INFO - service - Service shutting down
+2019-01-28 09:36:06,462 INFO - config-manager - Persisting configuration
+2019-01-28 09:36:06,462 INFO - config-manager - Backing up existing config file
+2019-01-28 09:36:06,463 INFO - config-manager - Finished persisting configuration - no errors
+2019-01-28 09:36:06,520 INFO - inotify - Shutting down file monitor
+2019-01-28 09:37:46,175 INFO - root - Initialising application
+2019-01-28 09:37:46,183 INFO - root - Initialise global hotkeys
+2019-01-28 09:37:46,183 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-01-28 09:37:46,186 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-01-28 09:37:46,186 INFO - config-manager - Successfully loaded configuration
+2019-01-28 09:37:46,187 INFO - service - Starting service
+2019-01-28 09:37:46,249 INFO - interface - XRecord interface thread starting
+2019-01-28 09:37:46,249 INFO - service - Service now marked as running
+2019-01-28 09:38:20,727 INFO - root - Initialising application
+2019-01-28 09:38:20,734 INFO - root - Initialise global hotkeys
+2019-01-28 09:38:20,734 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-01-28 09:38:20,737 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-01-28 09:38:20,738 INFO - config-manager - Successfully loaded configuration
+2019-01-28 09:38:20,738 INFO - service - Starting service
+2019-01-28 09:38:20,824 INFO - interface - XRecord interface thread starting
+2019-01-28 09:38:20,824 INFO - service - Service now marked as running
+2019-01-28 09:38:39,773 INFO - root - Displaying configuration window
+2019-02-01 16:34:12,180 INFO - root - Initialising application
+2019-02-01 16:34:12,191 INFO - root - Initialise global hotkeys
+2019-02-01 16:34:12,191 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-02-01 16:34:12,241 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-02-01 16:34:12,242 INFO - config-manager - Successfully loaded configuration
+2019-02-01 16:34:12,242 INFO - service - Starting service
+2019-02-01 16:34:12,326 INFO - interface - XRecord interface thread starting
+2019-02-01 16:34:12,326 INFO - service - Service now marked as running
+2019-02-01 16:34:12,359 INFO - root - Entering main()
+2019-02-06 18:54:47,383 INFO - root - Displaying configuration window
+2019-02-06 18:55:03,063 INFO - root - Shutting down
+2019-02-06 18:55:03,064 INFO - service - Service shutting down
+2019-02-06 18:55:03,243 INFO - config-manager - Persisting configuration
+2019-02-06 18:55:03,243 INFO - config-manager - Backing up existing config file
+2019-02-06 18:55:03,273 INFO - config-manager - Finished persisting configuration - no errors
+2019-02-06 18:55:03,565 INFO - inotify - Shutting down file monitor
+2019-02-06 18:56:14,019 INFO - root - Initialising application
+2019-02-06 18:56:14,026 INFO - root - Initialise global hotkeys
+2019-02-06 18:56:14,026 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-02-06 18:56:14,064 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-02-06 18:56:14,064 INFO - config-manager - Successfully loaded configuration
+2019-02-06 18:56:14,065 INFO - service - Starting service
+2019-02-06 18:56:14,172 INFO - interface - XRecord interface thread starting
+2019-02-06 18:56:14,173 INFO - service - Service now marked as running
+2019-02-06 18:56:14,234 INFO - root - Entering main()
+2019-02-11 22:35:07,172 INFO - root - Initialising application
+2019-02-11 22:35:07,201 INFO - root - Initialise global hotkeys
+2019-02-11 22:35:07,201 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-02-11 22:35:07,698 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-02-11 22:35:07,699 INFO - config-manager - Successfully loaded configuration
+2019-02-11 22:35:07,699 INFO - service - Starting service
+2019-02-11 22:35:07,963 INFO - interface - XRecord interface thread starting
+2019-02-11 22:35:07,964 INFO - service - Service now marked as running
+2019-02-11 22:35:09,027 INFO - root - Entering main()
+2019-02-15 09:47:42,872 INFO - root - Displaying configuration window
+2019-02-15 09:51:02,184 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-02-15 09:51:02,184 INFO - config-manager - Persisting configuration
+2019-02-15 09:51:02,185 INFO - config-manager - Backing up existing config file
+2019-02-15 09:51:02,201 INFO - config-manager - Finished persisting configuration - no errors
+2019-02-15 09:51:05,525 INFO - root - Displaying configuration window
+2019-02-15 09:51:37,161 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-02-15 09:51:40,676 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-02-15 09:51:40,676 INFO - config-manager - Persisting configuration
+2019-02-15 09:51:40,676 INFO - config-manager - Backing up existing config file
+2019-02-15 09:51:40,677 INFO - config-manager - Finished persisting configuration - no errors
+2019-02-15 09:52:00,407 INFO - root - Displaying configuration window
+2019-02-15 09:52:37,144 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-02-15 09:52:37,145 INFO - config-manager - Persisting configuration
+2019-02-15 09:52:37,145 INFO - config-manager - Backing up existing config file
+2019-02-15 09:52:37,146 INFO - config-manager - Finished persisting configuration - no errors
+2019-02-15 09:52:45,488 INFO - service - Pausing - service now marked as stopped
+2019-02-15 09:52:53,435 INFO - root - Displaying configuration window
+2019-02-15 09:56:34,975 INFO - root - Shutting down
+2019-02-15 09:56:34,975 INFO - service - Service shutting down
+2019-02-15 09:56:35,768 INFO - config-manager - Persisting configuration
+2019-02-15 09:56:35,768 INFO - config-manager - Backing up existing config file
+2019-02-15 09:56:35,769 INFO - config-manager - Finished persisting configuration - no errors
+2019-02-15 09:56:35,977 INFO - inotify - Shutting down file monitor
+2019-02-15 09:57:09,508 INFO - root - Initialising application
+2019-02-15 09:57:09,514 INFO - root - Initialise global hotkeys
+2019-02-15 09:57:09,514 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-02-15 09:57:09,624 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-02-15 09:57:09,625 INFO - config-manager - Successfully loaded configuration
+2019-02-15 09:57:09,625 INFO - service - Starting service
+2019-02-15 09:57:09,749 INFO - interface - XRecord interface thread starting
+2019-02-15 09:57:09,750 INFO - service - Service now marked as running
+2019-02-15 09:57:09,806 INFO - root - Entering main()
+2019-02-15 09:57:17,319 INFO - service - Undoing last abbreviation expansion
+2019-02-15 09:58:25,226 INFO - root - Displaying configuration window
+2019-02-15 09:58:56,485 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-02-15 09:58:56,486 INFO - config-manager - Persisting configuration
+2019-02-15 09:58:56,486 INFO - config-manager - Backing up existing config file
+2019-02-15 09:58:56,487 INFO - config-manager - Finished persisting configuration - no errors
+2019-02-21 22:13:20,640 INFO - root - Initialising application
+2019-02-21 22:13:20,671 INFO - root - Initialise global hotkeys
+2019-02-21 22:13:20,697 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-02-21 22:13:20,856 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-02-21 22:13:20,856 INFO - config-manager - Successfully loaded configuration
+2019-02-21 22:13:20,857 INFO - service - Starting service
+2019-02-21 22:13:21,131 INFO - interface - XRecord interface thread starting
+2019-02-21 22:13:21,132 INFO - service - Service now marked as running
+2019-02-21 22:13:21,186 INFO - root - Entering main()
+2019-02-21 22:17:30,423 INFO - root - Initialising application
+2019-02-21 22:17:30,466 INFO - root - Initialise global hotkeys
+2019-02-21 22:17:30,466 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-02-21 22:17:30,667 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-02-21 22:17:30,667 INFO - config-manager - Successfully loaded configuration
+2019-02-21 22:17:30,667 INFO - service - Starting service
+2019-02-21 22:17:31,024 INFO - interface - XRecord interface thread starting
+2019-02-21 22:17:31,025 INFO - service - Service now marked as running
+2019-02-21 22:17:31,732 INFO - root - Entering main()
+2019-03-04 00:02:21,949 INFO - root - Initialising application
+2019-03-04 00:02:22,016 INFO - root - Initialise global hotkeys
+2019-03-04 00:02:22,016 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-03-04 00:02:22,331 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-03-04 00:02:22,331 INFO - config-manager - Successfully loaded configuration
+2019-03-04 00:02:22,332 INFO - service - Starting service
+2019-03-04 00:02:22,955 INFO - interface - XRecord interface thread starting
+2019-03-04 00:02:22,956 INFO - service - Service now marked as running
+2019-03-04 00:02:23,390 INFO - root - Entering main()
+2019-04-08 21:37:06,046 INFO - root - Initialising application
+2019-04-08 21:37:06,328 INFO - root - Initialise global hotkeys
+2019-04-08 21:37:06,328 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-04-08 21:37:06,752 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-04-08 21:37:06,752 INFO - config-manager - Successfully loaded configuration
+2019-04-08 21:37:06,752 INFO - service - Starting service
+2019-04-08 21:37:07,085 INFO - interface - XRecord interface thread starting
+2019-04-08 21:37:07,086 INFO - service - Service now marked as running
+2019-04-08 21:37:07,230 INFO - root - Entering main()
+2019-04-08 21:40:16,051 INFO - root - Initialising application
+2019-04-08 21:40:16,111 INFO - root - Initialise global hotkeys
+2019-04-08 21:40:16,111 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-04-08 21:40:16,405 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-04-08 21:40:16,406 INFO - config-manager - Successfully loaded configuration
+2019-04-08 21:40:16,406 INFO - service - Starting service
+2019-04-08 21:40:16,599 INFO - interface - XRecord interface thread starting
+2019-04-08 21:40:16,600 INFO - service - Service now marked as running
+2019-04-08 21:40:17,174 INFO - root - Entering main()
+2019-04-08 21:57:07,058 INFO - root - Displaying configuration window
+2019-04-08 21:57:17,242 INFO - root - Shutting down
+2019-04-08 21:57:17,242 INFO - service - Service shutting down
+2019-04-08 21:57:17,916 INFO - config-manager - Persisting configuration
+2019-04-08 21:57:17,916 INFO - config-manager - Backing up existing config file
+2019-04-08 21:57:17,936 INFO - config-manager - Finished persisting configuration - no errors
+2019-04-08 21:57:18,937 INFO - inotify - Shutting down file monitor
+2019-04-19 15:11:01,125 INFO - root - Initialising application
+2019-04-19 15:11:01,167 INFO - root - Initialise global hotkeys
+2019-04-19 15:11:01,167 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-04-19 15:11:01,488 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-04-19 15:11:01,488 INFO - config-manager - Successfully loaded configuration
+2019-04-19 15:11:01,489 INFO - service - Starting service
+2019-04-19 15:11:02,314 INFO - interface - XRecord interface thread starting
+2019-04-19 15:11:02,315 INFO - service - Service now marked as running
+2019-04-19 15:11:02,865 INFO - root - Entering main()
+2019-05-16 22:04:14,625 INFO - root - Initialising application
+2019-05-16 22:04:14,676 INFO - root - Initialise global hotkeys
+2019-05-16 22:04:14,676 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-05-16 22:04:14,810 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-05-16 22:04:14,810 INFO - config-manager - Successfully loaded configuration
+2019-05-16 22:04:14,810 INFO - service - Starting service
+2019-05-16 22:04:14,909 INFO - interface - XRecord interface thread starting
+2019-05-16 22:04:14,910 INFO - service - Service now marked as running
+2019-05-16 22:04:14,995 INFO - root - Displaying configuration window
+2019-05-16 22:04:15,465 INFO - root - Entering main()
+2019-05-17 00:19:01,638 INFO - root - Displaying configuration window
+2019-05-17 00:19:04,746 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-05-17 00:19:04,746 INFO - config-manager - Persisting configuration
+2019-05-17 00:19:04,747 INFO - config-manager - Backing up existing config file
+2019-05-17 00:19:04,748 INFO - config-manager - Finished persisting configuration - no errors
+2019-05-17 00:19:14,360 INFO - root - Displaying configuration window
+2019-05-17 00:19:18,078 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-05-17 00:19:18,079 INFO - config-manager - Persisting configuration
+2019-05-17 00:19:18,079 INFO - config-manager - Backing up existing config file
+2019-05-17 00:19:18,080 INFO - config-manager - Finished persisting configuration - no errors
+2019-05-21 23:32:36,642 INFO - root - Initialising application
+2019-05-21 23:32:36,666 INFO - root - Initialise global hotkeys
+2019-05-21 23:32:36,678 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-05-21 23:32:36,745 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-05-21 23:32:36,745 INFO - config-manager - Successfully loaded configuration
+2019-05-21 23:32:36,745 INFO - service - Starting service
+2019-05-21 23:32:36,865 INFO - interface - XRecord interface thread starting
+2019-05-21 23:32:36,865 INFO - service - Service now marked as running
+2019-05-21 23:32:36,938 INFO - root - Displaying configuration window
+2019-05-21 23:32:37,334 INFO - root - Entering main()
+2019-05-21 23:36:13,573 INFO - root - Displaying configuration window
+2019-05-21 23:36:17,225 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-05-21 23:36:17,225 INFO - config-manager - Persisting configuration
+2019-05-21 23:36:17,225 INFO - config-manager - Backing up existing config file
+2019-05-21 23:36:17,247 INFO - config-manager - Finished persisting configuration - no errors
+2019-05-21 23:36:46,558 INFO - root - Displaying configuration window
+2019-05-21 23:36:48,900 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-05-21 23:36:48,900 INFO - config-manager - Persisting configuration
+2019-05-21 23:36:48,901 INFO - config-manager - Backing up existing config file
+2019-05-21 23:36:48,901 INFO - config-manager - Finished persisting configuration - no errors
+2019-05-21 23:37:01,417 INFO - root - Displaying configuration window
+2019-05-21 23:37:04,883 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-05-21 23:37:04,883 INFO - config-manager - Persisting configuration
+2019-05-21 23:37:04,883 INFO - config-manager - Backing up existing config file
+2019-05-21 23:37:04,884 INFO - config-manager - Finished persisting configuration - no errors
+2019-05-21 23:37:11,938 INFO - root - Displaying configuration window
+2019-05-21 23:37:15,631 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-05-21 23:37:15,632 INFO - config-manager - Persisting configuration
+2019-05-21 23:37:15,632 INFO - config-manager - Backing up existing config file
+2019-05-21 23:37:15,632 INFO - config-manager - Finished persisting configuration - no errors
+2019-05-27 23:36:23,700 INFO - service - Undoing last abbreviation expansion
+2019-05-29 11:14:12,518 INFO - root - Initialising application
+2019-05-29 11:14:13,754 INFO - root - Initialise global hotkeys
+2019-05-29 11:14:13,754 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-05-29 11:14:14,866 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-05-29 11:14:14,867 INFO - config-manager - Successfully loaded configuration
+2019-05-29 11:14:14,867 INFO - service - Starting service
+2019-05-29 11:14:16,022 INFO - interface - XRecord interface thread starting
+2019-05-29 11:14:16,024 INFO - service - Service now marked as running
+2019-05-29 11:14:16,185 INFO - root - Entering main()
+2019-05-30 21:51:37,972 INFO - root - Initialising application
+2019-05-30 21:51:38,050 INFO - root - Initialise global hotkeys
+2019-05-30 21:51:38,050 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-05-30 21:51:45,362 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-05-30 21:51:45,363 INFO - config-manager - Successfully loaded configuration
+2019-05-30 21:51:45,363 INFO - service - Starting service
+2019-05-30 21:51:46,837 INFO - interface - XRecord interface thread starting
+2019-05-30 21:51:46,837 INFO - service - Service now marked as running
+2019-05-30 21:51:47,960 INFO - root - Entering main()
+2019-06-01 23:04:27,636 INFO - root - Initialising application
+2019-06-01 23:04:27,696 INFO - root - Initialise global hotkeys
+2019-06-01 23:04:27,697 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-01 23:04:29,197 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-01 23:04:29,198 INFO - config-manager - Successfully loaded configuration
+2019-06-01 23:04:29,199 INFO - service - Starting service
+2019-06-01 23:04:29,482 INFO - interface - XRecord interface thread starting
+2019-06-01 23:04:29,483 INFO - service - Service now marked as running
+2019-06-01 23:04:29,526 INFO - root - Entering main()
+2019-06-02 11:46:41,031 INFO - root - Initialising application
+2019-06-02 11:46:41,695 INFO - root - Initialise global hotkeys
+2019-06-02 11:46:41,884 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-02 11:46:45,255 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-02 11:46:45,256 INFO - config-manager - Successfully loaded configuration
+2019-06-02 11:46:45,256 INFO - service - Starting service
+2019-06-02 11:46:45,575 INFO - interface - XRecord interface thread starting
+2019-06-02 11:46:45,576 INFO - service - Service now marked as running
+2019-06-02 11:46:45,617 INFO - root - Entering main()
+2019-06-02 20:23:02,030 INFO - root - Initialising application
+2019-06-02 20:23:02,106 INFO - root - Initialise global hotkeys
+2019-06-02 20:23:02,106 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-02 20:23:02,932 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-02 20:23:02,933 INFO - config-manager - Successfully loaded configuration
+2019-06-02 20:23:02,933 INFO - service - Starting service
+2019-06-02 20:23:03,307 INFO - interface - XRecord interface thread starting
+2019-06-02 20:23:03,308 INFO - service - Service now marked as running
+2019-06-02 20:23:03,350 INFO - root - Entering main()
+2019-06-02 20:32:54,898 INFO - root - Initialising application
+2019-06-02 20:32:54,906 INFO - root - Initialise global hotkeys
+2019-06-02 20:32:54,907 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-02 20:32:54,910 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-02 20:32:54,910 INFO - config-manager - Successfully loaded configuration
+2019-06-02 20:32:54,910 INFO - service - Starting service
+2019-06-02 20:32:54,975 INFO - interface - XRecord interface thread starting
+2019-06-02 20:32:54,976 INFO - service - Service now marked as running
+2019-06-02 20:32:55,053 INFO - root - Entering main()
+2019-06-02 20:34:55,515 INFO - root - Initialising application
+2019-06-02 20:34:55,527 INFO - root - Initialise global hotkeys
+2019-06-02 20:34:55,527 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-02 20:34:55,533 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-02 20:34:55,534 INFO - config-manager - Successfully loaded configuration
+2019-06-02 20:34:55,535 INFO - service - Starting service
+2019-06-02 20:34:55,707 INFO - interface - XRecord interface thread starting
+2019-06-02 20:34:55,709 INFO - service - Service now marked as running
+2019-06-02 20:34:55,849 INFO - root - Entering main()
+2019-06-02 20:58:33,505 INFO - root - Initialising application
+2019-06-02 20:58:33,513 INFO - root - Initialise global hotkeys
+2019-06-02 20:58:33,513 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-02 20:58:33,518 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-02 20:58:33,518 INFO - config-manager - Successfully loaded configuration
+2019-06-02 20:58:33,518 INFO - service - Starting service
+2019-06-02 20:58:33,662 INFO - interface - XRecord interface thread starting
+2019-06-02 20:58:33,675 INFO - service - Service now marked as running
+2019-06-02 20:58:33,818 INFO - root - Entering main()
+2019-06-02 21:06:17,016 INFO - root - Initialising application
+2019-06-02 21:06:17,045 INFO - root - Initialise global hotkeys
+2019-06-02 21:06:17,045 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-02 21:06:17,051 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-02 21:06:17,052 INFO - config-manager - Successfully loaded configuration
+2019-06-02 21:06:17,052 INFO - service - Starting service
+2019-06-02 21:06:17,226 INFO - service - Service now marked as running
+2019-06-02 21:06:17,237 INFO - interface - XRecord interface thread starting
+2019-06-02 21:06:17,368 INFO - root - Entering main()
+2019-06-02 21:08:50,297 INFO - root - Initialising application
+2019-06-02 21:08:50,344 INFO - root - Initialise global hotkeys
+2019-06-02 21:08:50,344 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-02 21:08:50,348 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-02 21:08:50,348 INFO - config-manager - Successfully loaded configuration
+2019-06-02 21:08:50,348 INFO - service - Starting service
+2019-06-02 21:08:50,556 INFO - interface - XRecord interface thread starting
+2019-06-02 21:08:50,556 INFO - service - Service now marked as running
+2019-06-02 21:08:50,653 INFO - root - Entering main()
+2019-06-02 21:21:01,829 INFO - root - Initialising application
+2019-06-02 21:21:01,837 INFO - root - Initialise global hotkeys
+2019-06-02 21:21:01,838 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-02 21:21:01,841 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-02 21:21:01,841 INFO - config-manager - Successfully loaded configuration
+2019-06-02 21:21:01,842 INFO - service - Starting service
+2019-06-02 21:21:01,912 INFO - interface - XRecord interface thread starting
+2019-06-02 21:21:01,912 INFO - service - Service now marked as running
+2019-06-02 21:21:01,960 INFO - root - Entering main()
+2019-06-02 21:22:24,140 INFO - root - Initialising application
+2019-06-02 21:22:24,151 INFO - root - Initialise global hotkeys
+2019-06-02 21:22:24,151 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-02 21:22:24,155 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-02 21:22:24,155 INFO - config-manager - Successfully loaded configuration
+2019-06-02 21:22:24,156 INFO - service - Starting service
+2019-06-02 21:22:24,816 INFO - interface - XRecord interface thread starting
+2019-06-02 21:22:24,833 INFO - service - Service now marked as running
+2019-06-02 21:22:24,856 INFO - root - Entering main()
+2019-06-02 21:27:00,033 INFO - root - Initialising application
+2019-06-02 21:27:00,043 INFO - root - Initialise global hotkeys
+2019-06-02 21:27:00,043 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-02 21:27:00,046 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-02 21:27:00,047 INFO - config-manager - Successfully loaded configuration
+2019-06-02 21:27:00,047 INFO - service - Starting service
+2019-06-02 21:27:00,179 INFO - service - Service now marked as running
+2019-06-02 21:27:00,190 INFO - root - Entering main()
+2019-06-02 21:27:00,200 INFO - interface - XRecord interface thread starting
+2019-06-02 21:28:04,941 INFO - root - Initialising application
+2019-06-02 21:28:04,954 INFO - root - Initialise global hotkeys
+2019-06-02 21:28:04,954 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-02 21:28:04,958 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-02 21:28:04,958 INFO - config-manager - Successfully loaded configuration
+2019-06-02 21:28:04,959 INFO - service - Starting service
+2019-06-02 21:28:05,051 INFO - interface - XRecord interface thread starting
+2019-06-02 21:28:05,053 INFO - service - Service now marked as running
+2019-06-02 21:28:05,068 INFO - root - Entering main()
+2019-06-02 21:29:05,968 INFO - root - Initialising application
+2019-06-02 21:29:05,979 INFO - root - Initialise global hotkeys
+2019-06-02 21:29:05,980 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-02 21:29:05,983 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-02 21:29:05,984 INFO - config-manager - Successfully loaded configuration
+2019-06-02 21:29:05,984 INFO - service - Starting service
+2019-06-02 21:29:06,106 INFO - interface - XRecord interface thread starting
+2019-06-02 21:29:06,108 INFO - service - Service now marked as running
+2019-06-02 21:29:06,124 INFO - root - Entering main()
+2019-06-02 21:30:12,550 INFO - root - Initialising application
+2019-06-02 21:30:12,585 INFO - root - Initialise global hotkeys
+2019-06-02 21:30:12,585 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-02 21:30:12,593 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-02 21:30:12,594 INFO - config-manager - Successfully loaded configuration
+2019-06-02 21:30:12,594 INFO - service - Starting service
+2019-06-02 21:30:12,845 INFO - interface - XRecord interface thread starting
+2019-06-02 21:30:12,859 INFO - service - Service now marked as running
+2019-06-02 21:30:12,899 INFO - root - Entering main()
+2019-06-02 21:31:45,423 INFO - root - Initialising application
+2019-06-02 21:31:45,453 INFO - root - Initialise global hotkeys
+2019-06-02 21:31:45,453 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-02 21:31:45,457 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-02 21:31:45,457 INFO - config-manager - Successfully loaded configuration
+2019-06-02 21:31:45,457 INFO - service - Starting service
+2019-06-02 21:31:45,695 INFO - interface - XRecord interface thread starting
+2019-06-02 21:31:45,709 INFO - service - Service now marked as running
+2019-06-02 21:31:45,740 INFO - root - Entering main()
+2019-06-03 15:12:50,794 INFO - root - Initialising application
+2019-06-03 15:12:51,479 INFO - root - Initialise global hotkeys
+2019-06-03 15:12:51,480 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-03 15:12:54,680 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-03 15:12:54,680 INFO - config-manager - Successfully loaded configuration
+2019-06-03 15:12:54,680 INFO - service - Starting service
+2019-06-03 15:12:55,492 INFO - interface - XRecord interface thread starting
+2019-06-03 15:12:55,493 INFO - service - Service now marked as running
+2019-06-03 15:12:55,504 INFO - root - Entering main()
+2019-06-03 22:23:06,404 INFO - root - Initialising application
+2019-06-03 22:23:06,649 INFO - root - Initialise global hotkeys
+2019-06-03 22:23:06,663 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-03 22:23:07,819 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-03 22:23:07,820 INFO - config-manager - Successfully loaded configuration
+2019-06-03 22:23:07,820 INFO - service - Starting service
+2019-06-03 22:23:08,412 INFO - interface - XRecord interface thread starting
+2019-06-03 22:23:08,412 INFO - service - Service now marked as running
+2019-06-03 22:23:08,449 INFO - root - Entering main()
+2019-06-04 21:04:58,025 INFO - root - Initialising application
+2019-06-04 21:04:58,098 INFO - root - Initialise global hotkeys
+2019-06-04 21:04:58,098 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-04 21:04:59,233 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-04 21:04:59,234 INFO - config-manager - Successfully loaded configuration
+2019-06-04 21:04:59,234 INFO - service - Starting service
+2019-06-04 21:04:59,983 INFO - interface - XRecord interface thread starting
+2019-06-04 21:04:59,983 INFO - service - Service now marked as running
+2019-06-04 21:05:00,033 INFO - root - Entering main()
+2019-06-04 22:01:46,056 INFO - root - Initialising application
+2019-06-04 22:01:46,079 INFO - root - Initialise global hotkeys
+2019-06-04 22:01:46,080 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-04 22:01:46,084 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-04 22:01:46,085 INFO - config-manager - Successfully loaded configuration
+2019-06-04 22:01:46,085 INFO - service - Starting service
+2019-06-04 22:01:46,246 INFO - service - Service now marked as running
+2019-06-04 22:01:46,251 INFO - interface - XRecord interface thread starting
+2019-06-04 22:01:46,330 INFO - root - Entering main()
+2019-06-04 22:03:29,683 INFO - root - Initialising application
+2019-06-04 22:03:29,709 INFO - root - Initialise global hotkeys
+2019-06-04 22:03:29,709 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-04 22:03:29,715 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-04 22:03:29,716 INFO - config-manager - Successfully loaded configuration
+2019-06-04 22:03:29,716 INFO - service - Starting service
+2019-06-04 22:03:29,880 INFO - interface - XRecord interface thread starting
+2019-06-04 22:03:29,882 INFO - service - Service now marked as running
+2019-06-04 22:03:30,050 INFO - root - Entering main()
+2019-06-04 22:10:13,478 INFO - root - Initialising application
+2019-06-04 22:10:13,745 INFO - root - Initialise global hotkeys
+2019-06-04 22:10:13,746 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-04 22:10:14,513 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-04 22:10:14,514 INFO - config-manager - Successfully loaded configuration
+2019-06-04 22:10:14,514 INFO - service - Starting service
+2019-06-04 22:10:14,905 INFO - interface - XRecord interface thread starting
+2019-06-04 22:10:14,906 INFO - service - Service now marked as running
+2019-06-04 22:10:14,949 INFO - root - Entering main()
+2019-06-04 22:27:11,934 INFO - root - Initialising application
+2019-06-04 22:27:11,986 INFO - root - Initialise global hotkeys
+2019-06-04 22:27:11,987 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-04 22:27:13,728 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-04 22:27:13,729 INFO - config-manager - Successfully loaded configuration
+2019-06-04 22:27:13,729 INFO - service - Starting service
+2019-06-04 22:27:14,149 INFO - interface - XRecord interface thread starting
+2019-06-04 22:27:14,150 INFO - service - Service now marked as running
+2019-06-04 22:27:14,189 INFO - root - Entering main()
+2019-06-04 23:52:31,248 INFO - root - Initialising application
+2019-06-04 23:52:31,438 INFO - root - Initialise global hotkeys
+2019-06-04 23:52:31,438 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-04 23:52:33,147 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-04 23:52:33,148 INFO - config-manager - Successfully loaded configuration
+2019-06-04 23:52:33,149 INFO - service - Starting service
+2019-06-04 23:52:33,867 INFO - interface - XRecord interface thread starting
+2019-06-04 23:52:33,868 INFO - service - Service now marked as running
+2019-06-04 23:52:33,908 INFO - root - Entering main()
+2019-06-05 09:08:30,111 INFO - root - Initialising application
+2019-06-05 09:08:30,328 INFO - root - Initialise global hotkeys
+2019-06-05 09:08:30,328 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-05 09:08:30,578 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-05 09:08:30,579 INFO - config-manager - Successfully loaded configuration
+2019-06-05 09:08:30,580 INFO - service - Starting service
+2019-06-05 09:08:31,038 INFO - interface - XRecord interface thread starting
+2019-06-05 09:08:31,039 INFO - service - Service now marked as running
+2019-06-05 09:08:31,050 INFO - root - Entering main()
+2019-06-05 23:48:56,133 INFO - root - Initialising application
+2019-06-05 23:48:56,462 INFO - root - Initialise global hotkeys
+2019-06-05 23:48:56,490 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-05 23:48:57,246 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-05 23:48:57,247 INFO - config-manager - Successfully loaded configuration
+2019-06-05 23:48:57,247 INFO - service - Starting service
+2019-06-05 23:48:58,020 INFO - interface - XRecord interface thread starting
+2019-06-05 23:48:58,020 INFO - service - Service now marked as running
+2019-06-05 23:48:58,029 INFO - root - Entering main()
+2019-06-05 23:59:14,207 INFO - root - Initialising application
+2019-06-05 23:59:14,345 INFO - root - Initialise global hotkeys
+2019-06-05 23:59:14,345 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-05 23:59:15,159 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-05 23:59:15,160 INFO - config-manager - Successfully loaded configuration
+2019-06-05 23:59:15,160 INFO - service - Starting service
+2019-06-05 23:59:15,628 INFO - interface - XRecord interface thread starting
+2019-06-05 23:59:15,628 INFO - service - Service now marked as running
+2019-06-05 23:59:15,637 INFO - root - Entering main()
+2019-06-06 21:57:02,458 INFO - root - Initialising application
+2019-06-06 21:57:02,698 INFO - root - Initialise global hotkeys
+2019-06-06 21:57:02,699 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-06 21:57:03,685 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-06 21:57:03,686 INFO - config-manager - Successfully loaded configuration
+2019-06-06 21:57:03,686 INFO - service - Starting service
+2019-06-06 21:57:04,389 INFO - interface - XRecord interface thread starting
+2019-06-06 21:57:04,390 INFO - service - Service now marked as running
+2019-06-06 21:57:04,398 INFO - root - Entering main()
+2019-06-11 00:02:16,300 INFO - root - Initialising application
+2019-06-11 00:02:16,478 INFO - root - Initialise global hotkeys
+2019-06-11 00:02:16,478 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-06-11 00:02:17,763 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-06-11 00:02:17,764 INFO - config-manager - Successfully loaded configuration
+2019-06-11 00:02:17,764 INFO - service - Starting service
+2019-06-11 00:02:18,465 INFO - interface - XRecord interface thread starting
+2019-06-11 00:02:18,466 INFO - service - Service now marked as running
+2019-06-11 00:02:18,474 INFO - root - Entering main()
+2019-07-16 08:45:15,559 INFO - root - Initialising application
+2019-07-16 08:45:15,571 INFO - root - Initialise global hotkeys
+2019-07-16 08:45:15,571 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-07-16 08:45:15,575 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-07-16 08:45:15,575 INFO - config-manager - Successfully loaded configuration
+2019-07-16 08:45:15,575 INFO - service - Starting service
+2019-07-16 08:45:16,479 INFO - interface - XRecord interface thread starting
+2019-07-16 08:45:16,480 INFO - service - Service now marked as running
+2019-07-16 08:45:16,491 INFO - root - Entering main()
+2019-07-16 18:49:44,824 INFO - service - Undoing last abbreviation expansion
+2019-07-18 11:27:45,887 INFO - root - Initialising application
+2019-07-18 11:27:46,132 INFO - root - Initialise global hotkeys
+2019-07-18 11:27:46,132 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-07-18 11:27:47,114 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-07-18 11:27:47,115 INFO - config-manager - Successfully loaded configuration
+2019-07-18 11:27:47,115 INFO - service - Starting service
+2019-07-18 11:27:47,443 INFO - interface - XRecord interface thread starting
+2019-07-18 11:27:47,443 INFO - service - Service now marked as running
+2019-07-18 11:27:47,452 INFO - root - Entering main()
+2019-07-18 15:25:39,079 INFO - root - Initialising application
+2019-07-18 15:25:39,463 INFO - root - Initialise global hotkeys
+2019-07-18 15:25:39,608 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-07-18 15:25:40,564 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-07-18 15:25:40,564 INFO - config-manager - Successfully loaded configuration
+2019-07-18 15:25:40,565 INFO - service - Starting service
+2019-07-18 15:25:40,969 INFO - interface - XRecord interface thread starting
+2019-07-18 15:25:40,970 INFO - service - Service now marked as running
+2019-07-18 15:25:40,978 INFO - root - Entering main()
+2019-07-19 18:10:36,600 INFO - root - Initialising application
+2019-07-19 18:10:36,756 INFO - root - Initialise global hotkeys
+2019-07-19 18:10:36,756 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-07-19 18:10:37,052 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-07-19 18:10:37,052 INFO - config-manager - Successfully loaded configuration
+2019-07-19 18:10:37,053 INFO - service - Starting service
+2019-07-19 18:10:37,782 INFO - interface - XRecord interface thread starting
+2019-07-19 18:10:37,783 INFO - service - Service now marked as running
+2019-07-19 18:10:37,795 INFO - root - Entering main()
+2019-07-31 12:30:55,141 INFO - root - Initialising application
+2019-07-31 12:30:55,447 INFO - root - Initialise global hotkeys
+2019-07-31 12:30:55,448 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-07-31 12:30:56,494 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-07-31 12:30:56,494 INFO - config-manager - Successfully loaded configuration
+2019-07-31 12:30:56,495 INFO - service - Starting service
+2019-07-31 12:30:57,126 INFO - interface - XRecord interface thread starting
+2019-07-31 12:30:57,127 INFO - service - Service now marked as running
+2019-07-31 12:30:57,134 INFO - root - Entering main()
+2019-08-08 22:58:57,351 INFO - root - Initialising application
+2019-08-08 22:58:57,410 INFO - root - Initialise global hotkeys
+2019-08-08 22:58:57,410 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-08-08 22:58:58,274 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-08-08 22:58:58,275 INFO - config-manager - Successfully loaded configuration
+2019-08-08 22:58:58,275 INFO - service - Starting service
+2019-08-08 22:58:58,619 INFO - interface - XRecord interface thread starting
+2019-08-08 22:58:58,620 INFO - service - Service now marked as running
+2019-08-08 22:58:58,628 INFO - root - Entering main()
+2019-08-28 20:43:41,649 INFO - root - Initialising application
+2019-08-28 20:43:41,709 INFO - root - Initialise global hotkeys
+2019-08-28 20:43:41,709 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-08-28 20:43:42,182 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-08-28 20:43:42,182 INFO - config-manager - Successfully loaded configuration
+2019-08-28 20:43:42,182 INFO - service - Starting service
+2019-08-28 20:43:42,517 INFO - interface - XRecord interface thread starting
+2019-08-28 20:43:42,518 INFO - service - Service now marked as running
+2019-08-28 20:43:42,526 INFO - root - Entering main()
+2019-08-28 21:38:01,850 INFO - root - Initialising application
+2019-08-28 21:38:01,963 INFO - root - Initialise global hotkeys
+2019-08-28 21:38:01,963 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-08-28 21:38:02,371 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-08-28 21:38:02,371 INFO - config-manager - Successfully loaded configuration
+2019-08-28 21:38:02,372 INFO - service - Starting service
+2019-08-28 21:38:02,661 INFO - interface - XRecord interface thread starting
+2019-08-28 21:38:02,662 INFO - service - Service now marked as running
+2019-08-28 21:38:02,673 INFO - root - Entering main()
+2019-08-28 22:07:01,323 INFO - root - Initialising application
+2019-08-28 22:07:01,488 INFO - root - Initialise global hotkeys
+2019-08-28 22:07:01,488 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-08-28 22:07:02,841 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-08-28 22:07:02,842 INFO - config-manager - Successfully loaded configuration
+2019-08-28 22:07:02,842 INFO - service - Starting service
+2019-08-28 22:07:03,574 INFO - interface - XRecord interface thread starting
+2019-08-28 22:07:03,574 INFO - service - Service now marked as running
+2019-08-28 22:07:03,585 INFO - root - Entering main()
+2019-08-29 17:23:39,845 INFO - root - Initialising application
+2019-08-29 17:23:39,975 INFO - root - Initialise global hotkeys
+2019-08-29 17:23:39,975 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-08-29 17:23:40,894 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-08-29 17:23:40,895 INFO - config-manager - Successfully loaded configuration
+2019-08-29 17:23:40,896 INFO - service - Starting service
+2019-08-29 17:23:41,435 INFO - interface - XRecord interface thread starting
+2019-08-29 17:23:41,436 INFO - service - Service now marked as running
+2019-08-29 17:23:41,444 INFO - root - Entering main()
+2019-08-29 23:10:22,873 INFO - root - Initialising application
+2019-08-29 23:10:22,936 INFO - root - Initialise global hotkeys
+2019-08-29 23:10:22,936 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-08-29 23:10:24,170 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-08-29 23:10:24,170 INFO - config-manager - Successfully loaded configuration
+2019-08-29 23:10:24,171 INFO - service - Starting service
+2019-08-29 23:10:24,801 INFO - interface - XRecord interface thread starting
+2019-08-29 23:10:24,802 INFO - service - Service now marked as running
+2019-08-29 23:10:24,810 INFO - root - Entering main()
+2019-09-02 15:29:29,734 INFO - root - Initialising application
+2019-09-02 15:29:30,512 INFO - root - Initialise global hotkeys
+2019-09-02 15:29:30,642 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-09-02 15:29:31,981 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-02 15:29:31,981 INFO - config-manager - Successfully loaded configuration
+2019-09-02 15:29:31,981 INFO - service - Starting service
+2019-09-02 15:29:32,497 INFO - interface - XRecord interface thread starting
+2019-09-02 15:29:32,498 INFO - service - Service now marked as running
+2019-09-02 15:29:32,505 INFO - root - Entering main()
+2019-09-09 16:22:47,856 INFO - root - Initialising application
+2019-09-09 16:22:48,358 INFO - root - Initialise global hotkeys
+2019-09-09 16:22:48,359 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-09-09 16:22:50,156 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 16:22:50,157 INFO - config-manager - Successfully loaded configuration
+2019-09-09 16:22:50,157 INFO - service - Starting service
+2019-09-09 16:22:50,922 INFO - interface - XRecord interface thread starting
+2019-09-09 16:22:50,923 INFO - service - Service now marked as running
+2019-09-09 16:22:50,933 INFO - root - Entering main()
+2019-09-21 15:24:59,485 INFO - root - Initialising application
+2019-09-21 15:24:59,665 INFO - root - Initialise global hotkeys
+2019-09-21 15:24:59,665 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-09-21 15:25:00,266 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-21 15:25:00,266 INFO - config-manager - Successfully loaded configuration
+2019-09-21 15:25:00,266 INFO - service - Starting service
+2019-09-21 15:25:00,594 INFO - interface - XRecord interface thread starting
+2019-09-21 15:25:00,595 INFO - service - Service now marked as running
+2019-09-21 15:25:00,602 INFO - root - Entering main()
+2019-09-26 22:14:29,107 INFO - root - Initialising application
+2019-09-26 22:14:29,649 INFO - root - Initialise global hotkeys
+2019-09-26 22:14:29,655 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-09-26 22:14:30,487 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-26 22:14:30,487 INFO - config-manager - Successfully loaded configuration
+2019-09-26 22:14:30,488 INFO - service - Starting service
+2019-09-26 22:14:31,005 INFO - interface - XRecord interface thread starting
+2019-09-26 22:14:31,006 INFO - service - Service now marked as running
+2019-09-26 22:14:31,017 INFO - root - Entering main()
+2019-10-23 17:24:24,895 INFO - root - Initialising application
+2019-10-23 17:24:25,033 INFO - root - Initialise global hotkeys
+2019-10-23 17:24:25,033 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-10-23 17:24:27,307 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-10-23 17:24:27,308 INFO - config-manager - Successfully loaded configuration
+2019-10-23 17:24:27,308 INFO - service - Starting service
+2019-10-23 17:24:28,313 INFO - interface - XRecord interface thread starting
+2019-10-23 17:24:28,314 INFO - service - Service now marked as running
+2019-10-23 17:24:28,322 INFO - root - Entering main()
+2019-10-23 21:35:24,832 INFO - root - Initialising application
+2019-10-23 21:35:25,264 INFO - root - Initialise global hotkeys
+2019-10-23 21:35:25,271 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-10-23 21:35:26,325 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-10-23 21:35:26,326 INFO - config-manager - Successfully loaded configuration
+2019-10-23 21:35:26,326 INFO - service - Starting service
+2019-10-23 21:35:26,668 INFO - interface - XRecord interface thread starting
+2019-10-23 21:35:26,669 INFO - service - Service now marked as running
+2019-10-23 21:35:26,679 INFO - root - Entering main()
+2019-11-10 22:28:55,895 INFO - root - Initialising application
+2019-11-10 22:28:55,959 INFO - root - Initialise global hotkeys
+2019-11-10 22:28:55,959 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-11-10 22:28:56,387 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-11-10 22:28:56,388 INFO - config-manager - Successfully loaded configuration
+2019-11-10 22:28:56,388 INFO - service - Starting service
+2019-11-10 22:28:56,929 INFO - interface - XRecord interface thread starting
+2019-11-10 22:28:56,929 INFO - service - Service now marked as running
+2019-11-10 22:28:56,938 INFO - root - Entering main()
+2019-11-18 21:36:34,763 INFO - root - Initialising application
+2019-11-18 21:36:34,817 INFO - root - Initialise global hotkeys
+2019-11-18 21:36:34,817 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2019-11-18 21:36:35,049 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-11-18 21:36:35,050 INFO - config-manager - Successfully loaded configuration
+2019-11-18 21:36:35,050 INFO - service - Starting service
+2019-11-18 21:36:35,912 INFO - interface - XRecord interface thread starting
+2019-11-18 21:36:35,912 INFO - service - Service now marked as running
+2019-11-18 21:36:35,920 INFO - root - Entering main()
+2019-11-18 21:37:35,558 INFO - root - Displaying configuration window
+2019-11-18 21:37:41,503 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-11-18 21:37:41,503 INFO - config-manager - Persisting configuration
+2019-11-18 21:37:41,504 INFO - config-manager - Backing up existing config file
+2019-11-18 21:37:41,540 INFO - config-manager - Finished persisting configuration - no errors
+2019-11-18 21:45:42,134 INFO - root - Displaying configuration window
+2019-11-18 21:45:45,363 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-11-18 21:45:45,364 INFO - config-manager - Persisting configuration
+2019-11-18 21:45:45,364 INFO - config-manager - Backing up existing config file
+2019-11-18 21:45:45,365 INFO - config-manager - Finished persisting configuration - no errors
+2020-02-18 17:35:42,417 INFO - root - Initialising application
+2020-02-18 17:35:43,107 INFO - root - Initialise global hotkeys
+2020-02-18 17:35:43,107 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2020-02-18 17:35:44,138 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2020-02-18 17:35:44,138 INFO - config-manager - Successfully loaded configuration
+2020-02-18 17:35:44,139 INFO - service - Starting service
+2020-02-18 17:35:44,903 INFO - interface - XRecord interface thread starting
+2020-02-18 17:35:44,904 INFO - service - Service now marked as running
+2020-02-18 17:35:44,913 INFO - root - Entering main()
+2020-03-03 21:46:02,931 INFO - root - Initialising application
+2020-03-03 21:46:03,022 INFO - root - Initialise global hotkeys
+2020-03-03 21:46:03,025 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2020-03-03 21:46:04,140 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2020-03-03 21:46:04,141 INFO - config-manager - Successfully loaded configuration
+2020-03-03 21:46:04,141 INFO - service - Starting service
+2020-03-03 21:46:04,518 INFO - interface - XRecord interface thread starting
+2020-03-03 21:46:04,519 INFO - service - Service now marked as running
+2020-03-03 21:46:04,527 INFO - root - Entering main()
+2020-03-03 21:57:05,070 INFO - root - Initialising application
+2020-03-03 21:57:05,323 INFO - root - Initialise global hotkeys
+2020-03-03 21:57:05,324 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2020-03-03 21:57:06,920 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2020-03-03 21:57:06,921 INFO - config-manager - Successfully loaded configuration
+2020-03-03 21:57:06,921 INFO - service - Starting service
+2020-03-03 21:57:07,386 INFO - interface - XRecord interface thread starting
+2020-03-03 21:57:07,386 INFO - service - Service now marked as running
+2020-03-03 21:57:07,395 INFO - root - Entering main()
+2020-03-03 22:14:13,561 INFO - root - Initialising application
+2020-03-03 22:14:13,852 INFO - root - Initialise global hotkeys
+2020-03-03 22:14:13,852 INFO - config-manager - Loading config from existing file: /home/jack/.config/autokey/autokey.json
+2020-03-03 22:14:15,597 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2020-03-03 22:14:15,598 INFO - config-manager - Successfully loaded configuration
+2020-03-03 22:14:15,598 INFO - service - Starting service
+2020-03-03 22:14:16,463 INFO - interface - XRecord interface thread starting
+2020-03-03 22:14:16,463 INFO - service - Service now marked as running
+2020-03-03 22:14:16,471 INFO - root - Entering main()
+2020-03-08 21:23:33,415 INFO - root - Displaying configuration window
