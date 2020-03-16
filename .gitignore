@@ -1,2 +1,4 @@
 config/nvim/plugged/*
 **/.DS_Store
+**/*.log
+**/*.pid
