@@ -20,7 +20,7 @@
     "modes": [
         1
     ], 
-    "showInTrayMenu": false, 
+    "showInTrayMenu": true, 
     "filter": {
         "regex": null, 
         "isRecursive": false
