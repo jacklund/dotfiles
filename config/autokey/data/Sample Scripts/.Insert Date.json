@@ -1,12 +1,12 @@
 {
-    "usageCount": 1, 
+    "usageCount": 2, 
     "omitTrigger": false, 
     "prompt": false, 
     "description": "Insert Date", 
     "abbreviation": {
         "wordChars": "[\\w]", 
         "abbreviations": [
-            "::fulldate"
+            "::date"
         ], 
         "immediate": false, 
         "ignoreCase": false, 
@@ -17,8 +17,10 @@
         "hotKey": null, 
         "modifiers": []
     }, 
-    "modes": [], 
-    "showInTrayMenu": false, 
+    "modes": [
+        1
+    ], 
+    "showInTrayMenu": true, 
     "filter": {
         "regex": null, 
         "isRecursive": false
