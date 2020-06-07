@@ -74,6 +74,8 @@ Plug 'chase/vim-ansible-yaml'
 " Terraform
 Plug 'hashivim/vim-terraform'
 
+" Vim-obsession
+Plug 'tpope/vim-obsession'
 
 " LanguageClient-Neovim setup
 let g:LanguageClient_autoStart = 1
