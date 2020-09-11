@@ -9,6 +9,8 @@ for file in ${TOP_LEVEL_FILES}; do
   fi
 done
 
+ln -s ${PWD}/aliases ~/.bash_aliases
+
 for file in config/*/*; do
   if [[ $(readlink -f ~/.${file}) != ${PWD}/${file} ]]; then
     if [[ -e ~/.${file} ]]; then
