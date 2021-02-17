@@ -38,6 +38,7 @@
 [core]
 	autocrlf = input
 	excludesfile = ~/.gitignore
+	editor = nvim
 [pager]
   log = diff-highlight | less
   show = diff-highlight | less
