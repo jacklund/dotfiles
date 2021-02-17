@@ -24,9 +24,6 @@ Plug 'jlanzarotta/bufexplorer'
 
 Plug 'bling/vim-airline'
 
-" neomake
-" Plug 'neomake/neomake'
-
 " rust support
 Plug 'rust-lang/rust.vim'
 
@@ -39,9 +36,6 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 " Async FuzzyFind
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-
-" .editorconfig
-Plug 'editorconfig/editorconfig-vim'
 
 " semantic-based completion
 Plug 'Shougo/deoplete.nvim', { 'do': function('DoRemote') }
@@ -60,9 +54,6 @@ Plug 'autozimu/LanguageClient-neovim', {
     \ 'branch': 'next',
     \ 'do': 'bash install.sh',
     \ }
-
-" OrgMode
-Plug 'jceb/vim-orgmode'
 
 " Ansible
 Plug 'chase/vim-ansible-yaml'
