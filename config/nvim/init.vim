@@ -7,7 +7,6 @@ set fileencoding=utf-8      " The encoding written to file
 syntax on                   " Enable syntax highlight
 set ttyfast                 " Faster redrawing
 set lazyredraw              " Only redraw when necessary
-set cursorline              " Find the current line quickly.
 
 """""""""""""""""""""""""""""""""""""""""""""""
 " => Plugins List
@@ -19,9 +18,6 @@ function! DoRemote(arg)
   UpdateRemotePlugins
 endfunction
 
-
-" nord-vim colorscheme
-Plug 'arcticicestudio/nord-vim'
 
 " Bufexplorer
 Plug 'jlanzarotta/bufexplorer'
@@ -82,6 +78,7 @@ let g:LanguageClient_autoStart = 1
 let g:LanguageClient_loadSettings = 1
 let g:LanguageClient_diagnosticsEnable = 0
 let g:LanguageClient_useFloatingHover = 1
+let g:LanguageClient_floatingHoverHighlight = 'Normal:Pmenu'
 let g:LanguageClient_serverCommands = {
     \ 'python': ['pyls'],
     \ 'rust': ['rls'],
@@ -196,12 +193,6 @@ let g:terraform_fmt_on_save = 1
 """""""""""""""""""""""""""""""""""""""""""""""
 " => Visual Related Configs
 """""""""""""""""""""""""""""""""""""""""""""""
-
-" 256 colors
-set t_Co=256
-
-" set colorscheme
-silent! colorscheme nord
 
 " long lines as just one line (have to scroll horizontally)
 set wrap
