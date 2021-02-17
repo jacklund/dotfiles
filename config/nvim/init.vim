@@ -81,6 +81,7 @@ Plug 'tpope/vim-obsession'
 let g:LanguageClient_autoStart = 1
 let g:LanguageClient_loadSettings = 1
 let g:LanguageClient_diagnosticsEnable = 0
+let g:LanguageClient_useFloatingHover = 1
 let g:LanguageClient_serverCommands = {
     \ 'python': ['pyls'],
     \ 'rust': ['rls'],
@@ -141,6 +142,9 @@ let g:airline_section_z = ""
 
 " Rust
 let g:rustfmt_autosave = 1
+let g:rust_cargo_check_examples = 1
+let g:rust_cargo_check_tests = 1
+let g:rust_cargo_check_benches = 1
 
 " NERDTree
 map <silent> <LocalLeader>nt :NERDTreeToggle<CR>
