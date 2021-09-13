@@ -64,3 +64,5 @@ case "$(uname)" in
   Linux) alias psg='ps -eo pid,user,start_time,cmd --sort -etime | fgrep -v "grep" | grep -E';;
   *)     alias psg='ps -eo pid,user,start,command | fgrep -v "grep" | grep -E';;
 esac
+
+alias k=kubectl
