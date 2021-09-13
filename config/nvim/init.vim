@@ -64,6 +64,9 @@ Plug 'hashivim/vim-terraform'
 " Vim-obsession
 Plug 'tpope/vim-obsession'
 
+" Vim-go
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+
 " LanguageClient-Neovim setup
 let g:LanguageClient_autoStart = 1
 let g:LanguageClient_loadSettings = 1

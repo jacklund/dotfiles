@@ -137,7 +137,7 @@ export PROMPT='%{$fg_bold[green]%}%m:%{$fg_bold[blue]%}%~%{$fg_bold[green]%}$(gi
 export EDITOR=nvim
 export LESS='XFR'
 
-export PATH=$HOME/bin:$PATH
+export PATH=$HOME/bin:$HOME/.krew/bin:/usr/local/go/bin:$PATH
 
 # Turn off the dumb-ass ls quotes
 export QUOTING_STYLE=literal
