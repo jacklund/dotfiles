@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TOP_LEVEL_FILES="aliases bashrc fonts fzf.bash fzf.zsh gitconfig gorc tmux.conf vimrc zshrc zshrc.d"
+TOP_LEVEL_FILES="aliases bashrc fonts fzf.bash fzf.zsh gitconfig gnupg gorc tmux.conf vimrc zshrc zshrc.d"
 
 for file in ${TOP_LEVEL_FILES}; do
   if [[ $(readlink -f ~/.${file}) != ${PWD}/${file} ]]; then
