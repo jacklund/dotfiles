@@ -66,3 +66,4 @@ case "$(uname)" in
 esac
 
 alias k=kubectl
+alias vim=nvim
