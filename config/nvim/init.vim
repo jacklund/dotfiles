@@ -64,6 +64,9 @@ Plug 'hashivim/vim-terraform'
 " Vim-obsession
 Plug 'tpope/vim-obsession'
 
+" Jekyll
+Plug 'parkr/vim-jekyll'
+
 " Vim-go
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
