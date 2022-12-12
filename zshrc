@@ -7,6 +7,9 @@ colors
 autoload -U select-word-style
 select-word-style bash
 
+# Add path to zsh completions to fpath
+fpath=($HOME/.zsh_completions $fpath)
+
 # If using tmux, Disable bracketed paste
 [[ -n "$TMUX" ]] && unset zle_bracketed_paste
 
