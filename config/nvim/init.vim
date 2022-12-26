@@ -186,6 +186,14 @@ let g:syntastic_check_on_wq = 0
 " vim-terraform
 let g:terraform_fmt_on_save = 1
 
+" vim-jekyll
+let g:jekyll_post_extension = '.md'
+let g:jekyll_post_template = [
+      \ '---',
+      \ 'layout: single',
+      \ 'title: "JEKYLL_TITLE"',
+      \ '---',
+      \ '']
 
 """""""""""""""""""""""""""""""""""""""""""""""
 " => Visual Related Configs
