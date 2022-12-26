@@ -78,7 +78,7 @@ let g:LanguageClient_useFloatingHover = 1
 let g:LanguageClient_floatingHoverHighlight = 'Normal:Pmenu'
 let g:LanguageClient_serverCommands = {
     \ 'python': ['pyls'],
-    \ 'rust': ['rls'],
+    \ 'rust': ['rust-analyzer'],
     \ 'php': ['php', '~/.tooling/php-language-server/bin/php-language-server.php'],
     \ 'sh': ['bash-language-sever', 'start'],
     \ 'c': ['ccls', '--log-file=/tmp/cc.log'],
