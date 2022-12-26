@@ -99,7 +99,7 @@ noremap <leader>r  :call LanguageClient#textDocument_references()<CR>
 let g:ale_rust_rls_toolchain = "stable"
 let g:ale_linters = {
             \ 'python': ['pylint', 'pyls'],
-            \ 'rust': ['cargo'],
+            \ 'rust': ['analyzer'],
             \ 'php': ['langserver', 'php_cs_fixer'],
             \ 'bash': ['shellcheck'],
             \ }
