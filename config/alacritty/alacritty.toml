@@ -1,0 +1,8 @@
+live_config_reload = true
+import = [
+    "~/.config/alacritty/themes/themes/hardhacker.toml"
+]
+
+[window]
+opacity = 0.9
+blur = true
